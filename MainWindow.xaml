@@ -5,11 +5,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Slippi_Stats"
         mc:Ignorable="d"
-        Title="Slippi Stats Overlay" Height="500" Width="300" ResizeMode="NoResize" Topmost="True" RenderTransformOrigin="0.5,0.5" Opacity="0.8" WindowStyle="None" AllowsTransparency="True" Background="#FFC7C7C7" BorderBrush="Black" BorderThickness="3,3,3,3">
+        Title="Slippi Stats Overlay" Height="500" Width="350" ResizeMode="NoResize" Topmost="True" RenderTransformOrigin="0.5,0.5" Opacity="0.8" WindowStyle="None" AllowsTransparency="True" Background="#FFC7C7C7" BorderBrush="Black" BorderThickness="3,3,3,3">
     <Window.Effect>
         <DropShadowEffect/>
     </Window.Effect>
     <Grid x:Name="OverlayGrid">
-        <TextBlock x:Name="Titlebox" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="75" Width="232"/>
+        <StackPanel x:Name="OverlayStackPanel" Orientation="Vertical" HorizontalAlignment="Left" Margin="10"/>
+
     </Grid>
 </Window>
